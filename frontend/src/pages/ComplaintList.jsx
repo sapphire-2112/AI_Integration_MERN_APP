@@ -103,7 +103,7 @@ function ComplaintList() {
 
       await axios.delete(
 
-        `http://localhost:5000/api/complaints/${id}`,
+        `https://ai-integration-mern-app.onrender.com/api/complaints/${id}`,
 
         {
           headers: {

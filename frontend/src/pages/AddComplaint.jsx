@@ -36,7 +36,7 @@ function AddComplaint() {
       const response =
       await axios.post(
 
-        "http://localhost:5000/api/complaints",
+        "https://ai-integration-mern-app.onrender.com/api/complaints",
 
         formData
       );

@@ -23,7 +23,7 @@ function UpdateStatus() {
     const response =
     await axios.get(
 
-      "http://localhost:5000/api/complaints"
+      "https://ai-integration-mern-app.onrender.com/api/complaints"
     );
 
     setComplaints(response.data);
@@ -36,7 +36,7 @@ function UpdateStatus() {
 
     await axios.put(
 
-      `http://localhost:5000/api/complaints/${id}`,
+      `https://ai-integration-mern-app.onrender.com/api/complaints/${id}`,
 
       { status }
     );

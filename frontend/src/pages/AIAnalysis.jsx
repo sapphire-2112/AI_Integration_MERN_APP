@@ -15,7 +15,7 @@ function AIAnalysis() {
     const response =
     await axios.post(
 
-      "http://localhost:5000/api/ai/analyze",
+      "https://ai-integration-mern-app.onrender.com/api/ai/analyze",
 
       { description }
     );

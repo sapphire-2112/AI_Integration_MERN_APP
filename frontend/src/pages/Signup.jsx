@@ -20,7 +20,7 @@ function Signup() {
       const response =
       await axios.post(
 
-        "http://localhost:5000/signup",
+        "https://ai-integration-mern-app.onrender.com/signup",
 
         {
           email,
