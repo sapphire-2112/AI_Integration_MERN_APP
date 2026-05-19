@@ -35,7 +35,7 @@ function ComplaintList() {
       const response =
       await axios.get(
 
-        "http://localhost:5000/api/complaints"
+        "https://ai-integration-mern-app.onrender.com/api/complaints"
       );
 
       setComplaints(response.data);
@@ -57,7 +57,7 @@ function ComplaintList() {
       const response =
       await axios.get(
 
-        `http://localhost:5000/api/complaints/search?location=${location}`
+        `https://ai-integration-mern-app.onrender.com/api/complaints/search?location=${location}`
       );
 
       setComplaints(response.data);
@@ -79,7 +79,7 @@ function ComplaintList() {
       const response =
       await axios.get(
 
-        `http://localhost:5000/api/complaints/category/${category}`
+        `https://ai-integration-mern-app.onrender.com/api/complaints/category/${category}`
       );
 
       setComplaints(response.data);
